@@ -1,5 +1,5 @@
 import unittest
-import factory_example
+from python_factory import factory_example
 
 
 class TestUser(unittest.TestCase):
