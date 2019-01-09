@@ -2,7 +2,7 @@ import unittest
 from python_factory import factory_example
 
 
-class TestUser(unittest.TestCase):
+class FactoryTests(unittest.TestCase):
     def test_factory_for_student(self):
         user_email = "user@example.com"
         user_type = "Student"
