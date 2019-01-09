@@ -3,4 +3,5 @@
     "python.unitTest.pyTestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,
     "python.pythonPath": "venv\\Scripts\\python.exe",
+    "mocha.enabled": false,
 }
