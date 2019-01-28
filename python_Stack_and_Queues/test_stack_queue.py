@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import unittest
+import sys
+sys.path.append('.')
 from python_Stack_and_Queues import stack_queue as sq
 
 class StackQueueTest(unittest.TestCase):
