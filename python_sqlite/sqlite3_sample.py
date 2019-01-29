@@ -13,10 +13,12 @@ if __name__ == '__main__':
         DEFAULT_PATH = os.path.join(os.path.dirname(__file__), 'database.sqlite3')
         conn = db_connect(DEFAULT_PATH)
         cur = conn.cursor()
-        cur.execute('Select * from IOTDHTData')
+        cur.execute('SELECT rowid, [temp], humidity, timestamp FROM tbl_DHTDATA;')
         results = cur.fetchall()
         for row in results:
             print(row)
   
     except Exception as e:
         print(str(e))
+
+# INSERT INTO tbl_DHTDATA (                            [temp],                            humidity,                            timestamp                        )                        VALUES (                            100,                            100,                            datetime()                        )        
