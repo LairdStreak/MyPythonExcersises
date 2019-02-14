@@ -1,6 +1,6 @@
 {
     "python.unitTest.unittestEnabled": true,
-    "python.unitTest.pyTestEnabled": false,
     "python.unitTest.nosetestsEnabled": false,
-    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.unitTest.pyTestEnabled": false,
+    "python.pythonPath": "venv\\Scripts\\python.exe"
 }

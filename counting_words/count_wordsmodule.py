@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+"""
+Just Counts Words 
+"""
+
 def count_words(text: str, words: set):
     word_list = list(words)
     count = 0
