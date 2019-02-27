@@ -1,8 +1,20 @@
+# -*- coding: utf-8 -*-
+"""Example Google style docstrings.
+
+This module demonstrates documentation as specified by the `Google Python
+Style Guide`_. Docstrings may extend over multiple lines. Sections are created
+with a section header and a colon followed by a block of indented text.
+   http://google.github.io/styleguide/pyguide.html
+"""
+
 import turtle
 from math import sin, cos, radians as rad
 from colorsys import hls_to_rgb
 
 def main():
+    """[summary]
+    Function docstring
+    """
     t = turtle.Turtle()
     s = turtle.Screen()
     turtle.colormode(255)

@@ -2,5 +2,9 @@
     "python.unitTest.unittestEnabled": true,
     "python.unitTest.nosetestsEnabled": false,
     "python.unitTest.pyTestEnabled": false,
-    "python.pythonPath": "venv\\Scripts\\python.exe"
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "cSpell.words": [
+        "colorsys",
+        "exitonclick"
+    ]
 }
